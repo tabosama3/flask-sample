@@ -1,0 +1,11 @@
+<p>hello world</p>
+<span>{{ message }}</span>
+<div>
+    {% for msg in message_list %}
+		<p>{{msg}}</p>
+	{% endfor %}
+</div>
+<div>
+    <p>名前:{{message_dict.name}}</p>
+    <p>メッセージ:{{message_dict['message']}}</p>
+</div>
